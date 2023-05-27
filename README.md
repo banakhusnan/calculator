@@ -1,2 +1,2 @@
-# calculator
-Make calculator using Vanilla JS
+# Calculator
+Make calculator using Vanilla JS, and Bootstrap CSS
