@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator | BanaProjects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-info">
+    <div class="container">
+        <div class="row min-vh-100">
+            <div class="col-md-4 m-auto">
+                <div class="calculator card border-5 bg-dark shadow-lg">
+                    <div class="card-body">
+                        <input type="text" class="calculator-screen p-4 fs-1 bg-white rounded rounded-3 text-end w-100"
+                            value="0" disabled />
+                    </div>
+
+                    <div class="card-body">
+                        <div class="calculator-keys">
+
+                            <button type="button" class="operator btn btn-dark text-warning" value="+">+</button>
+                            <button type="button" class="operator btn btn-dark text-warning" value="-">-</button>
+                            <button type="button" class="operator btn btn-dark text-warning" value="*">&times;</button>
+                            <button type="button" class="operator btn btn-dark text-warning" value="/">&divide;</button>
+
+                            <button type="button" value="7"
+                                class="btn btn-dark waves-effect text-warning number">7</button>
+                            <button type="button" value="8"
+                                class="btn btn-dark waves-effect text-warning number">8</button>
+                            <button type="button" value="9"
+                                class="btn btn-dark waves-effect text-warning number">9</button>
+
+
+                            <button type="button" value="4"
+                                class="btn btn-dark waves-effect text-warning number">4</button>
+                            <button type="button" value="5"
+                                class="btn btn-dark waves-effect text-warning number">5</button>
+                            <button type="button" value="6"
+                                class="btn btn-dark waves-effect text-warning number">6</button>
+
+
+                            <button type="button" value="1"
+                                class="btn btn-dark waves-effect text-warning number">1</button>
+                            <button type="button" value="2"
+                                class="btn btn-dark waves-effect text-warning number">2</button>
+                            <button type="button" value="3"
+                                class="btn btn-dark waves-effect text-warning number">3</button>
+
+
+                            <button type="button" value="0"
+                                class="btn btn-dark waves-effect text-warning number">0</button>
+                            <button type="button" class="decimal function btn btn-outline-light text-warning"
+                                value=".">.</button>
+                            <button type="button" class="all-clear function btn btn-outline-light btn-sm text-warning"
+                                value="all-clear">AC</button>
+
+                            <button type="button" class="equal-sign btn btn-outline-light text-warning"
+                                value="=">=</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- My JS -->
+    <script src="scripts.js"></script>
+</body>
+
+</html>
